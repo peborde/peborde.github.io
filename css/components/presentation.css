@@ -1,0 +1,11 @@
+.presentation {
+  width: 700px;
+  /*margin: 24px auto;*/
+  text-align: justify;
+  float: right;
+  /*padding-top: 60px;*/
+  float: right;
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.1);*/
+  /*padding: 40px;*/
+  border-radius: 3px;
+}
