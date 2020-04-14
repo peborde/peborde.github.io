@@ -1,5 +1,5 @@
 .gboxt {
-width: 80%;
+width: 90%;
 height: 300px;
 display: flex;
 box-shadow:
@@ -16,7 +16,7 @@ overflow: scroll;
 }
 
 .gboxb {
-width: 80%;
+width: 90%;
 height: 300px;
 display: flex;
 box-shadow:
@@ -27,14 +27,14 @@ box-shadow:
     inset 0px 0px 4px rgba(255, 255, 255,.2);
 margin: auto;
 border-radius: 6px;
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/beromantic_fond2.Png);
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/beromantic_fond2.png);
 background-position: center;
 overflow: scroll;
 }
 
 
 .gboxg {
-width: 80%;
+width: 90%;
 height: 300px;
 display: flex;
 box-shadow:
@@ -45,7 +45,7 @@ box-shadow:
     inset 0px 0px 4px rgba(255, 255, 255,.2);
 margin: auto;
 border-radius: 6px;
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/grandmatohire_fond2.Png);
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/grandmatohire_fond2.png);
 background-position: center;
 overflow: scroll;
 }
@@ -82,12 +82,12 @@ text-align: center;
 
 .projets {
   width: 100%;
-  height: 400px;
+  /*height: 400px;*/
   display: flex;
   /*justify-content: space-around;
   align-items: stretch;*/
-  /*box-shadow: 0 3px 20px rgba(0,0,0,0.1);*/
-  /*padding: 10px;*/
+ /* box-shadow: 0 3px 20px rgba(0,0,0,0.1);*/
+  margin-bottom: 50px;
   /*border-radius: 6px;*/
 
 }
@@ -95,11 +95,11 @@ text-align: center;
 #projets h1 {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 20px;
+  /*margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Oswald', sans-serif;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  font-family: 'Oswald', sans-serif;*/
+/*  padding-top: 24px;
+  padding-bottom: 24px;*/
 }
 
 

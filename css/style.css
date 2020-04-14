@@ -16,6 +16,8 @@ body {
 }
 
 
+
+
 p {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -25,11 +27,11 @@ p {
 h1 {
 font-size: 48px;
 font-weight: bold;
-margin-top: 20px;
-margin-bottom: 20px;
+/*margin-top: 20px;*/
+/*margin-bottom: 20px;*/
 font-family: 'Oswald', sans-serif;
 text-align: center;
-color: #4c3bfe;
+color: #7a8cc2 !important;
 /*color: #2f2e41;*/
 }
 
@@ -182,4 +184,12 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 
+
+.spacer {
+  margin: 40px 0px;
+}
+
+.centering{
+  margin-top: 50px;
+}
 /*color: #1176D4*/

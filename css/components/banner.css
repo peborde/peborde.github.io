@@ -1,15 +1,28 @@
 .banner {
-  background-size: contain;
+/*  background-size: contain;
   background-position: bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   /*padding: 150px 0;*/
-  width: 100%;
+ /* width: 100%;*/
   /*background-image: url(../../images/web_developer2.svg);*/
-
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.banner h1 {
+@media (max-width: 768px) {
+  .banner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/*.banner h1 {
   margin: 0;
   color: #1176D4;
   font-size: 40px;
@@ -20,37 +33,40 @@
   font-size: 20px;
   color: white;
   /*text-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/
-}
+}*/
 
 .container-banner {
-  width: 80%;
+/*  width: 80%;
   margin: 8px auto;
   padding-bottom: 24px;
   height: 60vh;
-  text-align: left;
+  text-align: left;*/
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 
 }
 
-.container-banner img {
+.container-banner .pres {
+  flex-grow:1;
+}
+
+/*.container-banner img {
 
   width: 100%;
   height: auto;
-}
+}*/
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .container-banner. h1 {
     text-align: left;
     font-size: smaller;
   }
-}
+}*/
 
 /*@media screen and (max-width: 460px;) {
   .container-banner div img {
     width: 350px;
   }*/
 
-}
 
 

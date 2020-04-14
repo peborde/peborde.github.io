@@ -25,9 +25,21 @@
 #competences h1 {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 20px;
+  /*margin-top: 20px;
   margin-bottom: 10px;
-  font-family: 'Oswald', sans-serif;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  font-family: 'Oswald', sans-serif;*/
+ /* padding-top: 24px;
+  padding-bottom: 24px;*/
 }
+
+/*@media (max-width: 768px) {
+  .competences {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .competences {
+    grid-template-columns: 1fr;
+  }
+}*/

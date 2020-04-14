@@ -13,11 +13,11 @@
 #a-propos h1 {
 font-size: 30px;
 font-weight: bold;
-margin-top: 20px;
+/*margin: 20px 0px 10px 0px;
 margin-bottom: 10px;
-font-family: 'Oswald', sans-serif;
-padding-top: 24px;
-padding-bottom: 24px;
+font-family: 'Oswald', sans-serif;*/
+/*padding-top: 24px;
+padding-bottom: 24px;*/
 }
 
 .photo {

@@ -16,39 +16,40 @@
 
 <body>
   <section id="entrée" style="margin-bottom: 60px;">
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon" style="justify-content: flex-end; background: none; margin-bottom: 50px;">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#a-propos" style="color:#4c3bfe; font-weight: bold">A propos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#competences" style="color:#4c3bfe; font-weight: bold">Mes compétences</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projets" style="color:#4c3bfe; font-weight: bold">Mes projets</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#timeline" style="color:#4c3bfe; font-weight: bold">Mes formations</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-
-  <div class="banner row">
-    <div class="container-banner" >
-      <div style="margin-top: 40px;" >
-        <h1 style="max-width:500px; margin-bottom: 90px; color: #4c3bfe;"><strong>Bordenave Pierre-Etienne </strong></h1>
-        <p style="color: #2f2e41;">Développeur Web full-stack</p>
-        <p style="color: #2f2e41;"> Formé à Le Wagon Lyon à Ruby on Rails, et désormais passioné de dévelopement web, je souhaite intégrer une entreprise afin de parfaire mes connaissances. retrouvé mes différents projets et compétences un peu plus bas !   </p>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon" style="justify-content: flex-end; background: none; margin-bottom: 50px;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#a-propos" style="color:#4c3bfe; font-weight: bold">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#competences" style="color:#4c3bfe; font-weight: bold">Mes compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projets" style="color:#4c3bfe; font-weight: bold">Mes projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline" style="color:#4c3bfe; font-weight: bold">Mes formations</a>
+          </li>
+        </ul>
       </div>
-      <div class="col-xs-12 col-lg-6"><img src="images/coding_png.png" alt=""></div>
     </div>
-  </div>
+    <div class="container">
+      <div class="container-banner">
+        <div class="banner">
+          <div class="centering">
+            <h1 style="max-width:500px; margin-bottom: 110px; color: #4c3bfe;"><strong>Bordenave Pierre-Etienne </strong></h1>
+            <p style="color: #2f2e41; margin-bottom: 30px"><strong>Développeur Web full-stack</strong></p>
+            <p style="color: #2f2e41; text-align: justify;"> Formé à Le Wagon Lyon à Ruby on Rails, et désormais passioné de dévelopement web, je souhaite intégrer une entreprise afin de parfaire mes connaissances. retrouvé mes différents projets et compétences un peu plus bas !   </p>
+          </div>
+
+          <div class="pres"><img src="images/coding_png.png"  style="width:100%" alt=""></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="skill">
@@ -102,7 +103,7 @@
   </div>
   <section id="a-propos">
     <div class="container">
-      <h1> A propos</h1>
+      <h1 class="spacer"> A propos</h1>
       <div class="propos">
         <div>
           <img src="images/wagon-10.jpg" alt="" class="photo">
@@ -119,7 +120,7 @@
 
   <section id="competences">
     <div class="container" >
-      <div><h1>Mes compétences</h1></div>
+      <div class="spacer"><h1>Mes compétences</h1></div>
       <div class="competences">
         <div class="competence">
           <h4>Ruby</h4>
@@ -161,7 +162,7 @@
     </div>
   <section id="projets">
     <div class="container">
-      <div><h1>Mes projets</h1></div>
+      <div class="spacer"><h1>Mes projets</h1></div>
       <div class="projets">
         <div class="gboxt">
           <div class="box1">
@@ -222,7 +223,7 @@
 
 <section id="timeline">
   <div class="container">
-    <div><h1>Mes formations</h1></div>
+    <div class="spacer"><h1>Mes formations</h1></div>
     <div class="timeline">
       <div class="containert left">
         <div class="content">
@@ -278,7 +279,6 @@
   </div>
 </div>
 
-<!-- <div id="particles-js"></div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
