@@ -101,6 +101,11 @@ font-family: 'Oswald', sans-serif;
 
 /* Media Queries: Tablet Landscape */
 
+@media(max-width: 500px) {
+  .propos img {
+    width: 100%;
+  }
+}
 
 @media(max-width: 1060px) {
   .propos {
