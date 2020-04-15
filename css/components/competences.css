@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 80px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   padding: 30px;
  }
@@ -36,10 +36,10 @@
   .competences {
     grid-template-columns: 1fr 2fr;
   }
-}
+}*/
 
 @media (max-width: 500px) {
   .competences {
-    grid-template-columns: 1fr;
+    grid-gap: 25px;
   }
-}*/
+}

@@ -16,23 +16,25 @@
 
 <body>
   <section id="entrée" style="margin-bottom: 60px;">
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon" style="justify-content: flex-end; background: none; margin-bottom: 50px;">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon" style="justify-content: space-between; background: none; margin-bottom: 50px;">
+      <a class="navbar-brand" href="#">
+        <img src="images/WAGON-10.jpg" alt="" class=" profilepic">        </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#a-propos" style="color:#4c3bfe; font-weight: bold">A propos</a>
+            <a class="nav-link navtitle" href="#a-propos" style="color:#4c3bfe; font-weight: bold; ">A propos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#competences" style="color:#4c3bfe; font-weight: bold">Mes compétences</a>
+            <a class="nav-link navtitle" href="#competences" style="color:#4c3bfe; font-weight: bold">Mes compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projets" style="color:#4c3bfe; font-weight: bold">Mes projets</a>
+            <a class="nav-link navtitle" href="#projets" style="color:#4c3bfe; font-weight: bold">Mes projets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#timeline" style="color:#4c3bfe; font-weight: bold">Mes formations</a>
+            <a class="nav-link navtitle" href="#timeline" style="color:#4c3bfe; font-weight: bold">Mes formations</a>
           </li>
         </ul>
       </div>
@@ -43,10 +45,14 @@
           <div class="centering">
             <h1 style="max-width:500px; margin-bottom: 110px; color: #4c3bfe;"><strong>Bordenave Pierre-Etienne </strong></h1>
             <p style="color: #2f2e41; margin-bottom: 30px"><strong>Développeur Web full-stack</strong></p>
-            <p style="color: #2f2e41; text-align: justify;"> Formé à Le Wagon Lyon à Ruby on Rails, et désormais passioné de dévelopement web, je souhaite intégrer une entreprise afin de parfaire mes connaissances. retrouvé mes différents projets et compétences un peu plus bas !   </p>
+            <p style="color: #2f2e41; text-align: justify;"> Formé au Wagon Lyon à Ruby on Rails, et désormais passioné de dévelopement web, je souhaite intégrer une entreprise afin de parfaire mes connaissances. retrouvé mes différents projets et compétences un peu plus bas !</p>
+            <div>
+              <a class="btn btn-ghost" href="#">Mes projets</a>
+              <a class="btn btn-ghost" href="#">Contact 👋🏼 </a>
+            </div>
           </div>
 
-          <div class="pres"><img src="images/coding_png.png"  style="width:100%" alt=""></div>
+          <div class="pres"><img src="images/Coding_PNG.png"  style="width:100%" alt=""></div>
         </div>
       </div>
     </div>
@@ -64,52 +70,22 @@
           <p style="color:#2f2e41">Travail d'équipe</p>
         </div>
         <div class="acard">
-          <img src="images/c-3po.svg" alt="">
+          <img src="images/C-3PO.svg" alt="">
           <p style="color:#2f2e41">Autodidacte</p>
         </div>
       </div>
     </div>
   <hr align="center" width="80%" color="#fafafa" size="0.5">
   </section>
-
-  <div id="profil">
-    <div class="lat-container">
-
-      <img id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"class="dropdown-toggleavatar avatar-large avatar-bordered profilepic" src="images/wagon-10.jpg" alt="">
-      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" style="min-width: 0rem; text-align: center; border: none; background-color: #f1f2f5;">
-      <div>
-        <p style="font-size: 10px; font-weight:800; margin-top:8px; margin-bottom: 0px;">Pierre-Etienne</p>
-        <p style="font-size: 10px; font-weight: 800; margin-bottom:0px;">Bordenave</p>
-      </div>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/pierre-etienne-bordenave/" class="fab fa-linkedin" id="linkedin" target="_blank"></a>
-        <a href="https://github.com/peborde" class="fab fa-github" id="github" target="_blank"></a>
-        <a href="mailto:pierre.etienne.bordenave@gmail.com" target="_blank"><img src="images/gmail.svg" style="width: 23px;" alt=""></a>
-      </div>
-      <div class="menu">
-        <a href="#a-propos" style="color: #4c3bfe">A propos</a>
-        <br>
-        <br>
-        <a href="#competences" style="color: #4c3bfe">Mes compétences</a>
-        <br>
-        <br>
-        <a href="#projets" style="color: #4c3bfe">Mes projets</a>
-        <br>
-        <br>
-        <a href="#timeline" style="color: #4c3bfe">Formations</a>
-      </div>
-      </div>
-    </div>
-  </div>
   <section id="a-propos">
     <div class="container">
       <h1 class="spacer"> A propos</h1>
       <div class="propos">
         <div>
-          <img src="images/wagon-10.jpg" alt="" class="photo">
+          <img src="images/WAGON-10.jpg" alt="" class="photo">
         </div>
         <div class="presentation">
-          <p>Après des études dans le commerce, j'ai décidé de devenir entrepreneur en créant ma marque Tea’s Good, des théières nomades éco-responsables ainsi que la vente de thés biologiques. Ce projet m’a fait découvrir l'univers du web et plus particuliérement le métier de web developer.</p>
+          <p>Après des études en école de commerce, j'ai décidé de devenir entrepreneur en créant ma marque Tea’s Good, des théières nomades éco-responsables ainsi que la vente de thés biologiques. Ce projet m’a fait découvrir l'univers du web et plus particuliérement le métier de web developer.</p>
           <p>En effet, après avoir créé mon site E-commerce, que j’ai conçu sous wordpress avec Woocomerce pour mon entreprise, j’ai voulu en apprendre plus sur le développement web et être ainsi capable de réaliser mes propres projets en toute autonomie.</p>
           <p>Je me suis alors lancé dans l’aventure du wagon. Un voyage intensif de 9 semaines dans l’univers du code afin de devenir développeur web full stack.</p>
           <p>Je poursuis actuellement mon apprentisage en codant des projets personnels mais également pour toutes personnes désirant créer son site ou une application web. </p>
@@ -256,7 +232,7 @@
             <p>D.U.T Techniques de Commercialisation</p>
           </div>
           <div>
-            <img src="images/iut.png" class="profilepic" style="object-fit: contain";/>
+            <img src="images/IUT.png" class="profilepic" style="object-fit: contain";/>
           </div>
         </div>
       </div>
